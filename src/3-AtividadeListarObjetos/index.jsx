@@ -5,9 +5,9 @@ import { useState } from "react";
 
 export default function Home() {
   const [listaProdutos, setProdutos] = useState([
-    { id: 1, nome: 'Produto A', preco: 'R$ 10,00' },
-    { id: 2, nome: 'Produto B', preco: 'R$ 20,00' },
-    { id: 3, nome: 'Produto C', preco: 'R$ 30,00' }
+        { id:1, nome:'Carrinho', preco:'R$ 350,00'},
+        { id:2, nome:'Banheira', preco:'R$ 132,00'},
+        { id:3, nome:'Berço', preco:'R$ 549,00'}
   ]);
 
   return (
