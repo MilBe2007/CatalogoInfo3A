@@ -6,16 +6,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000000;
+    background-color: rgb(10, 39, 95);
 }
 
 .container {
     width: 90%;
     max-width: 1000px;
-    background-color: #000000;
+    background-color: peru;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(187, 142, 63, 0.1);
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
     font-weight: bold;
     text-align: left;
     margin-bottom: 20px;
-    color: #333;
+    color: peru;
 }
 
 ol {
@@ -39,14 +39,14 @@ li a {
     display: block;
     padding: 12px;
     border-radius: 6px;
-    background-color: #000000;
-    color: #333;
+    background-color: #d5aa5f;
+    color: #090606;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
 li a:hover {
-    background-color: #000000;
+    background-color: #429ed7;
 }
 
 @media (max-width: 768px) {

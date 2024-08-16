@@ -40,6 +40,7 @@ export default function Home() {
     const removerPedido = (id) => {
         let remover = false;
         let listaAux = listaPedidos.filter((produto) =>
+        {
             if (remover == false) {
                 if (produto.id !== id) {
                 } else {
@@ -55,7 +56,7 @@ export default function Home() {
 
     return (
       <div>
-           <h1>Livros de Programação</h1>
+           <h1>Produtos para Bebês</h1>
   
            {
             listaProdutos.map((produto) =>

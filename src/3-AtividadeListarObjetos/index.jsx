@@ -1,6 +1,7 @@
 // Crie um elemento `<div>`.
 // Utilize o método `map` para listar cada objeto da `listaProdutos`
 // dentro desse `<div>`.
+
 import { useState } from "react";
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
 
   return (
     <div>
-         <h1>Livros de Programação</h1>
+         <h1>Produtos para Bebês</h1>
 
          {
           listaProdutos.map((produto) =>
